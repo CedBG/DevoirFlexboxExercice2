@@ -15,13 +15,21 @@ header {
   width: 100%;
 }
 
-.logo {
-  width: 50%;
-}
-
 .log-h1 {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+}
+
+.logo {
+    margin-right: -35px;
+}
+
+.logo img {
+  width: 50%;
 }
 
 .logo:hover,
@@ -34,19 +42,19 @@ h1:hover {
   font-size: 2.5rem;
 }
 
-h2 {
+.log-h1 a {
   color: #0087cc;
-  font-size: 1.3rem;
-  font-weight: bold;
+  font-size: 2.5rem;;
 }
 
 /* nav */
 
-nav {
+nav ul {
   background-color: #0087cc;
   display: flex;
   justify-content: flex-end;
-  padding-right: 20px;
+  align-items: center;
+  padding-right: 200px;
   height: 25px;
 }
 
@@ -63,19 +71,48 @@ nav a:hover {
 
 main {
   width: 85%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 time {
   color: #929292;
 }
 
+h2 {
+  color: #0087cc;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+h2:hover {
+  color: #ff7b29;
+}
+
 .section3 {
   display: flex;
+  justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 34%;
+    height: auto;
+}
+
+.s2 {
+    margin-left: -100px;
+    margin-right: -100px;
 }
 
 article {
   width: 50%;
-  height: auto;
+}
+
+article p {
+  margin-bottom: 5px;
 }
 
 article img {
@@ -84,11 +121,10 @@ article img {
 
 figcaption {
   color: #0087cc;
+  margin-bottom: 10px;
 }
 
-h2:hover {
-  color: #ff7b29;
-}
+
 
 span a {
   color: #0087cc;
@@ -98,12 +134,32 @@ span a {
 
 footer {
   width: 100%;
+  margin-left: 320px;
+  margin-bottom: 30px;
 }
 
 footer h3 {
   font-weight: bold;
+  margin-left: 23px;
+}
+
+footer p,
+h2 {
+  margin-bottom: 10px;
+}
+
+footer p {
+    margin-left: -40px;
+}
+
+footer img {
+    width: 2%;
 }
 
 footer img:hover {
   opacity: 50%;
+}
+
+.foot-img {
+    margin-left: 40px;
 }
