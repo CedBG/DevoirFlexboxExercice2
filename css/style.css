@@ -1,10 +1,7 @@
-body {
-  color: #555;
-}
 
 .container {
   width: 800px;
-  border: 1px solid;
+  min-width: 800px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -124,8 +121,6 @@ figcaption {
   margin-bottom: 10px;
 }
 
-
-
 span a {
   color: #0087cc;
 }
@@ -162,4 +157,39 @@ footer img:hover {
 
 .foot-img {
     margin-left: 40px;
+}
+
+/* responsive */
+
+@media screen and (min-width: 1200px) {
+
+  .container {
+    width: 1970px;
+  }
+  
+  nav ul {
+    padding-right: 150px;
+  }
+
+  article {
+    width: 100%;
+  }
+  
+.s2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+  figcaption br {
+    display: none;
+  }
+  
+  footer {
+    margin-left: 900px;
+  }
+
+  .foot-img {
+    margin-left: -20px;
+}
+
 }
